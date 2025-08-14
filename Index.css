@@ -1,0 +1,19 @@
+html {
+    background-color: red;
+}
+
+.container {
+    display: grid;
+    grid-template-areas: 0, 2, 0, 2;
+}
+
+#Text {
+    Color: yellow;
+    font-size: 13;
+    align-self: center;
+}
+
+#Text :hover{
+    color: black;
+    font-size: 18;
+}
